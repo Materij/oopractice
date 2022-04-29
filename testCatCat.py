@@ -19,7 +19,7 @@ print("b2.getName =", b2.getName())
 print("b2.getSex =", b2.getSex())
 print("b2.getAge =", b2.getAge())
 
-client_1 = Wallet("«Иван Петров»", 50)
+client_1 = Wallet("«Ivan Petrov»", 50)
 
-print("Клиент:", client_1.client + ". Баланс:", client_1.balance, end='')
-print(" руб")
+print("Customer:", client_1.client + ". Balance:", client_1.balance, end='')
+print(" rub")
